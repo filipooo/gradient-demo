@@ -1,25 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import GradientCircularProgress from './components/GradientCircularProgress';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<GradientCircularProgress
+				id="bottom"
+				startColor="white"
+				middleColor="grey"
+				endColor="white"
+				progress={100}
+				strokeWidth={1}
+				size={295}
+			/>
+			<GradientCircularProgress
+				id="top"
+				startColor="green"
+				middleColor="orange"
+				endColor="red"
+				emptyColor="transparent"
+				progress={80}
+				strokeWidth={2}
+				size={300}
+			/>
+		</div>
+	);
 }
 
 export default App;

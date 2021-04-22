@@ -8739,7 +8739,7 @@ prompts@2.4.0, prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8915,6 +8915,13 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-circular-gradient-progress@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-circular-gradient-progress/-/react-circular-gradient-progress-1.0.2.tgz#63977bd526bf927eb139578bc6e7ac110c27848c"
+  integrity sha512-b3pkx84kZ1YukmOX4e3F/5RO1hIKtPMB9RuvCiJoC5eraColtmCi5Hr9MDNs9nt+rfcixkbjwXR7Ppa7bj8u2Q==
+  dependencies:
+    react "^16.13.1"
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -8968,6 +8975,11 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-multicolor-circular-progress-bar@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-multicolor-circular-progress-bar/-/react-multicolor-circular-progress-bar-1.0.3.tgz#155180b345dc8cfc13475e0903fdb4fcce936f9e"
+  integrity sha512-v4TkfprihkrXdBOJGVhd2bZcC5wrCjs3AXKAtCYhnItFT0uG6E1C1QnU+yaQ8PX93knb95SrZeqr34QKEQOyAw==
 
 react-refresh@^0.8.3:
   version "0.8.3"
@@ -9039,6 +9051,15 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react@^16.13.1:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^17.0.2:
   version "17.0.2"
